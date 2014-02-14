@@ -17,8 +17,8 @@ PVector [] centerP = new PVector[100];
 
 
 void setup() {
-  size(600, 848,PDF, "filename.pdf");
-  //size(600,848);
+  //size(600, 848,PDF, "filename.pdf");
+  size(600,848);
   background(255);
 
   triSize = 2;
@@ -122,6 +122,7 @@ void setup() {
   }
   popMatrix();
   
-  exit();
+  //exit();
+  save("helloworld.jpg");
 }
 
